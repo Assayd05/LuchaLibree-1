@@ -1,12 +1,12 @@
-import Rutas from "./Rutas/Route/Rutas"
-function App() {
-  
+import React from "react";
+import Rutas from "./Rutas/Route/Rutas";
 
+function App() {
   return (
     <>
-     <Rutas/>
+      <Rutas />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

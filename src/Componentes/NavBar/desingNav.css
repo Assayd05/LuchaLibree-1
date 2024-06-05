@@ -1,8 +1,13 @@
+/* JESUS Y OSCAR LE MOVIMOS A ESTO  */
 nav {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.5); 
     overflow: hidden;
-    font-size: 30px; 
+    font-size: 25px; 
     font-family: 'Times New Roman', Times, serif;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center; 
+    
 }
 
 nav ul {
@@ -11,18 +16,22 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    align-items: center; 
+    width: 100%;
 }
 
 nav ul li {
-    display: inline;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 20px 30px 55px; 
+    padding: 5px 10px; 
     text-decoration: none;
+    line-height: 1; 
 }
 
 nav ul li a:hover {
@@ -30,8 +39,30 @@ nav ul li a:hover {
 }
 
 .icon {
-    width: 70px;
-    height: 70px;
+    width: 30px; 
+    height: 30px;
     border-radius: 50%;
-    color: aliceblue;
+    margin-right: 5px; 
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+}
+
+.profile-item {
+    display: flex;
+    align-items: center; 
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.profile-link span {
+    margin-left: 5px; 
+    font-size: 16px; 
 }

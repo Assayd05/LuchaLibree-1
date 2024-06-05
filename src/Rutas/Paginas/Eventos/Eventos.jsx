@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Login from "../../../Componentes/Login/Login"
 const Eventos = () => {
   return (
     <div>
-      Eventos
+      <Login/>
     </div>
   );
 };
